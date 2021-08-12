@@ -1,0 +1,52 @@
+// My custom reset css
+html {
+  font-size: $fontSizeBase;
+}
+
+body {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(
+    to bottom right,
+    $colorBgBody,
+    $colorBgContent
+  );
+  min-height: 100vh;
+}
+
+h1,h2,h3,h4,h5 {
+  transition: color .6s;
+  color: $colorTitle;
+  margin: 2.75rem 0 1rem;
+  font-family: Poppins,sans-serif;
+  font-weight: 600;
+  line-height: 1.15
+}
+
+.icon-button {
+  display: flex;
+  align-items: center;
+
+  background-color: transparent;
+  border: 0;
+
+  .icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    padding-left: 0.1rem;
+    padding-right: 0.2rem;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.col {
+  display: flex;
+  flex-direction: column;;
+}
+.flex1 {
+  flex: 1
+}

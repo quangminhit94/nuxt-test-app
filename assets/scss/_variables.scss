@@ -1,0 +1,50 @@
+/* Font */
+$fontSizeBase: 20px;
+
+
+/* Global color */
+$colorBgBody: #f5f7fa;
+$colorBgBodyDark: #0C365A;
+$colorBgContent: #fff;
+$colorBody: #444;
+
+// for text
+$colorCode: #fffbf3;
+$colorTitle: #3e4c59;
+$colorLink: #52606d;
+$colorBorder: rgba(0,0,0,0.1);
+
+$colorHighLight: #23CEFD;
+
+// https://www.color-hex.com/color-palette/1294
+$colorPrimary: #01D167;
+$colorPrimaryDark: #0C365A;
+
+
+// https://www.canva.com/learn/website-color-schemes/ 14. Tint and Tones
+$colorSecondary: #EDF3FF;
+$colorSecondaryDark: #49274a;
+
+// expansion panel
+$colorHeaderPanel: #fafcff;
+$colorHeaderPanelBorder: #F5F5F5;
+$colorHeaderPanelShadow: #0000000A;
+$colorBodyPanelBorder: #F0F0F0;
+$colorBodyPanelBgIcon: #009DFF1A;
+$colorBodyPanelBgSubIcon1: #325BAF;
+
+// bottomBar
+$colorBottomBarShadow: #00000014;
+
+/* global default variable scss */
+$space: 3.5rem;
+$contentWidth: 860px;
+$headerHeight: 80px;
+$radius: 5px;
+$fontWeightBold: 700;
+$fontWeightMedium: 600;
+$fontWeightRegular: 400;
+$lineHeight: 1.5;
+$lineHeightSmall: 1.2;
+
+/* Other global variable */
